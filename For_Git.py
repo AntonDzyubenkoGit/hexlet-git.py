@@ -48,6 +48,3 @@ def reg_int_c(message):
         bot.send_message(message.chat.id,'Дискриминант меньше нуля, в уравнении нет корней,  значит нет и действительных решений')
     else:
         bot.send_message(message.chat.id,'Что-то пошло не так, дружок')
-
-def whatelse():
-    pass
